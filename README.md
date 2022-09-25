@@ -2,16 +2,17 @@
 *Jazz hands!*
 <a href="https://juniperpress.netlify.app/" target="_blank"><img src="https://user-images.githubusercontent.com/88162896/192053125-c222e570-7b71-4cc9-98bb-a2c54b219995.jpg" /></a>
 
-Portfolio Site includes links to my projects, ways to contact me.
  
 ## Tech used: ![HTML5 BADGE](https://img.shields.io/static/v1?label=|&message=HTML5&color=23555f&style=plastic&logo=html5)![CSS BADGE](https://img.shields.io/static/v1?label=|&message=CSS3&color=285f65&style=plastic&logo=css3)![JAVASCRIPT BADGE](https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript)
+Portfolio Site includes links to my projects, ways to contact me.
 
-Learning was focused on presenting my work in an easy to understand format. I added a display mode for light and dark since some users prefer one mode over the other.
 
 ## Optimizations
 When I improve this project, I'll add a background animation and few other optimizations.
 
 ## Lessons Learned:
+
+Learning was focused on presenting my work in an easy to understand format. I added a display mode for light and dark since some users prefer one mode over the other.
 
 
 <!--![tiles](https://user-images.githubusercontent.com/88162896/192046787-d9be4b6d-4f8d-4114-978e-7329efdaa56d.gif) -->
