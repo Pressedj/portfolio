@@ -3,9 +3,43 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+document.querySelector('#mode').addEventListener('click', lightChange)
 function darken() {
-	var element = document.body;
-	element.classList.toggle("dark-mode");
+	let allElements = document.querySelectorAll("*")
+	document.querySelector('body').style.background = 'black'
+	document.querySelector('#sidebar').style.background = 'black'
+	document.querySelector('#mode').classList.replace('fa-moon', 'fa-sun')
+	allElements.forEach((e, i) => allElements[i].style.color = "white")
+	localStorage.setItem('display', 'dark');
+
+}
+
+function lighten() {
+	let allElements = document.querySelectorAll("*")
+	document.querySelector('body').style.background = 'white'
+	document.querySelector('#sidebar').style.background = 'white'
+	document.querySelector('#mode').classList.replace('fa-sun', 'fa-moon')
+	allElements.forEach((e, i) => allElements[i].style.color = "black")
+	localStorage.setItem('display', 'light');
+
+}
+
+function displayPreference() {
+	if (localStorage.getItem('display') === 'dark') {
+		darken()
+	} else if (localStorage.getItem('display') === 'white') {
+		lighten()
+    }
+}
+
+function lightChange() {
+	if (document.querySelector('body').style.background === '' || document.querySelector('body').style.background === 'white') {
+		console.log('hello')
+		darken()
+
+	} else {
+		lighten()
+    }
 }
 
 
@@ -265,3 +299,5 @@ function darken() {
 			});
 
 })(jQuery);
+
+displayPreference()
