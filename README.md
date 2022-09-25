@@ -12,7 +12,7 @@ When I improve this project, I'll add a background animation and few other optim
 
 ## Lessons Learned:
 
-Learning was focused on presenting my work in an easy to understand format. I added a display mode for light and dark since some users prefer one mode over the other.
+Focused on presenting my work in an easy to understand format. I added a display mode for light and dark since some users prefer one mode over the other.
 
 
 <!--![tiles](https://user-images.githubusercontent.com/88162896/192046787-d9be4b6d-4f8d-4114-978e-7329efdaa56d.gif) -->
